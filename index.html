@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Mohamed - Front-End Developer building modern, responsive and user-friendly websites."
+    />
+
+    <title>Mohamed | Front-End Developer</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav id="nav">
+        <a href="#home" class="logo">Mohamed<span>.</span></a>
+
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+
+        <button id="themeToggle" type="button" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button id="motionToggle" type="button">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <span>Motion: OFF</span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section id="home">
+        <div class="hero-content">
+          <p class="hero-label">WELCOME TO MY PORTFOLIO</p>
+
+          <h1>
+            Hi, I'm Mohamed
+            <br />
+            <span>Front-End Developer</span>
+          </h1>
+
+          <p>
+            I build modern, responsive and user-friendly websites with a focus
+            on clean design and smooth user experience.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#Projects" class="primary-btn"> Explore My Work </a>
+
+            <a href="#Contact" class="secondary-btn"> Contact Me </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="Projects">
+        <div class="section-heading">
+          <p>MY WORK</p>
+          <h2>Featured Projects</h2>
+          <span>
+            Some of the projects I've built using my front-end skills.
+          </span>
+        </div>
+
+        <div class="projects-container">
+          <!-- Featured Project: ORBIT -->
+          <article class="project-card project-card-featured">
+            <div class="project-image"><img src="ORBIT.png" alt="ORBIT productivity workspace preview" loading="lazy" /></div>
+            <div class="project-info">
+              <span class="project-category">FEATURED · PRODUCTIVITY WEB APP</span>
+              <h3>ORBIT — Productivity Workspace</h3>
+              <p>A responsive productivity workspace for managing tasks and projects, tracking progress, planning deadlines, and staying focused.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>LocalStorage</span></div>
+              <div class="project-actions">
+                <a href="https://m0ham3d-web.github.io/ORBIT/" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com/m0ham3d-web/ORBIT" target="_blank" rel="noopener noreferrer" class="project-link">Source Code <i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Mini Freelance Platform -->
+          <article class="project-card">
+            <div class="project-image"><img src="freelance.png" alt="Mini Freelance Platform preview" loading="lazy" /></div>
+            <div class="project-info">
+              <span class="project-category">FREELANCE WEB APPLICATION</span>
+              <h3>Mini Freelance Platform</h3>
+              <p>A bilingual platform concept where clients can publish projects and freelancers can explore opportunities, filter listings, and submit proposals.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive</span></div>
+              <div class="project-actions">
+                <a href="https://m0ham3d-web.github.io/freelance/" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com/m0ham3d-web/freelance" target="_blank" rel="noopener noreferrer" class="project-link">Source Code <i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- NOVA -->
+          <article class="project-card">
+            <div class="project-image"><img src="NOVA.png" alt="NOVA Premium Fashion website preview" loading="lazy" /></div>
+            <div class="project-info">
+              <span class="project-category">E-COMMERCE EXPERIENCE</span>
+              <h3>NOVA — Premium Fashion</h3>
+              <p>A minimalist fashion storefront with product collections, category browsing, product options, an interactive cart, and a checkout demonstration.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>E-commerce UI</span></div>
+              <div class="project-actions">
+                <a href="https://m0ham3d-web.github.io/NOVA/" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com/m0ham3d-web/NOVA" target="_blank" rel="noopener noreferrer" class="project-link">Source Code <i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CRUDS -->
+          <article class="project-card">
+            <div class="project-image"><img src="CRUDS.png" alt="CRUDS product management application preview" loading="lazy" /></div>
+            <div class="project-info">
+              <span class="project-category">PRODUCT MANAGEMENT TOOL</span>
+              <h3>CRUDS — Product Management</h3>
+              <p>A practical product management app for creating, viewing, updating, deleting, searching, and organizing product records.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>LocalStorage</span></div>
+              <div class="project-actions">
+                <a href="https://m0ham3d-web.github.io/CRUDS/" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com/m0ham3d-web/CRUDS" target="_blank" rel="noopener noreferrer" class="project-link">Source Code <i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Calculator -->
+          <article class="project-card">
+            <div class="project-image"><img src="Cal.png" alt="JavaScript calculator preview" loading="lazy" /></div>
+            <div class="project-info">
+              <span class="project-category">JAVASCRIPT MINI APP</span>
+              <h3>Calculator</h3>
+              <p>A compact browser calculator with a numeric keypad, arithmetic operators, clear control, and an interactive result display.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-actions">
+                <a href="https://m0ham3d-web.github.io/calculator/" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com/m0ham3d-web/calculator" target="_blank" rel="noopener noreferrer" class="project-link">Source Code <i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Tic Tac Toe -->
+          <article class="project-card">
+            <div class="project-image"><img src="TicTacToe.png" alt="Tic Tac Toe game preview" loading="lazy" /></div>
+            <div class="project-info">
+              <span class="project-category">BROWSER GAME</span>
+              <h3>Tic Tac Toe</h3>
+              <p>A classic two-player game with alternating X and O turns, win-condition detection, draw detection, and automatic round reset.</p>
+              <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Game Logic</span></div>
+              <div class="project-actions">
+                <a href="https://m0ham3d-web.github.io/TicTacToe/" target="_blank" rel="noopener noreferrer" class="project-link">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="https://github.com/m0ham3d-web/TicTacToe" target="_blank" rel="noopener noreferrer" class="project-link">Source Code <i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="Skills">
+        <div class="section-heading">
+          <p>WHAT I DO</p>
+          <h2>My Skills</h2>
+          <span>Technologies and skills I use to build websites.</span>
+        </div>
+
+        <div class="skills-container">
+          <div class="skill-card">
+            <i class="fa-brands fa-html5"></i>
+            <h3>HTML</h3>
+            <p>Semantic and structured web pages.</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h3>CSS</h3>
+            <p>Responsive layouts and modern styling.</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-js"></i>
+            <h3>JavaScript</h3>
+            <p>Interactive and functional interfaces.</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-pen-ruler"></i>
+            <h3>UI / UX</h3>
+            <p>Clean and user-friendly interfaces.</p>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-lightbulb"></i>
+            <h3>Problem Solving</h3>
+            <p>Breaking problems into practical solutions.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="About">
+        <div class="section-heading">
+          <p>GET TO KNOW ME</p>
+          <h2>About Me</h2>
+        </div>
+
+        <div class="about-content">
+          <p>
+            I'm Mohamed, a Front-End Developer interested in building modern and
+            responsive websites.
+          </p>
+
+          <p>
+            I enjoy turning ideas into real projects, improving user experiences
+            and learning new technologies through practice.
+          </p>
+
+          <p>
+            My current focus is creating clean interfaces that work smoothly
+            across different screen sizes.
+          </p>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="Contact">
+        <div class="section-heading">
+          <p>LET'S CONNECT</p>
+          <h2>Contact Me</h2>
+          <span> Have a project in mind? Feel free to send me a message. </span>
+        </div>
+
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Write your message..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="primary-btn">
+            Send via WhatsApp
+            <i class="fa-brands fa-whatsapp"></i>
+          </button>
+
+          <p class="form-note">
+            WhatsApp will open with your message ready to send.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <p>© <span id="year">2026</span> Mohamed. All Rights Reserved.</p>
+    </footer>
+
+    <script src="logic.js" defer></script>
+  </body>
+</html>
